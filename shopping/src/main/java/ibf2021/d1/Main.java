@@ -37,7 +37,7 @@ public class Main {
             
             // ADD CODE
 
-            } else if (com.equals("add")) {
+           } else if (com.equals("add")) {
                 menuloop: while(true) {
                     System.out.println("Type in what you would like to add (type back to return)?. Current menu:");
                     System.out.println(shoppingmenu);
@@ -85,9 +85,9 @@ public class Main {
             }    
             
             } else {
-                System.out.println("Wrong command!");
+                System.out.println("Wrong command!"); 
             }
-
+ 
         }
     }
 }
